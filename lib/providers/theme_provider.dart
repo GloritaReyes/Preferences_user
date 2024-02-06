@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-class ThemeProvider extends ChangeNotifierProvider{
+class ThemeProvider extends ChangeNotifier{
   ThemeData CurrentTheme;
 
   ThemeProvider({
